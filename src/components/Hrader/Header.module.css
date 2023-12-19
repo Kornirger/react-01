@@ -1,0 +1,18 @@
+.header {
+	grid-area: h;
+	padding: 10px;
+	background-color: #46ccb3;
+	display: flex;
+	align-items: center;
+}
+
+.header_logo {
+	width: 60px;
+	aspect-ratio: 1/1;
+	display: block;
+}
+
+.header_logo img {
+	width: 100%;
+	object-fit: contain;
+}

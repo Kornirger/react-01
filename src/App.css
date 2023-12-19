@@ -1,3 +1,6 @@
+a {
+	all: unset;
+}
 .App {
 	text-align: center;
 }
@@ -50,73 +53,14 @@
 	grid-gap: 10px;
 }
 
-.header {
-	grid-area: h;
-	padding: 10px;
-	background-color: #46ccb3;
-	display: flex;
-	align-items: center;
-}
-
-.header-logo {
-	width: 60px;
-	aspect-ratio: 1/1;
-	display: block;
-}
-
-.header-logo img {
-	width: 100%;
-	object-fit: contain;
-}
-
-.sidebar-nav {
-	grid-area: n;
-	background-color: #46ccb3;
-	padding: 10px;
-}
-.sidebar-nav__item {
-	margin-bottom: 10px;
-}
-.sidebar-nav a {
+.my-button {
+	background: #46ccb3;
 	color: #fff;
-	text-decoration: unset;
-	font-weight: 600;
+	padding: 10px;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 5px;
 }
-.sidebar-nav a:hover,
-.sidebar-nav span {
-	color: #1b5541;
-}
-
-.content {
-	grid-area: c;
-	background-color: aliceblue;
-}
-
-.content-top-bg-image {
-	width: 100%;
-	display: block;
-	height: 200px;
-}
-
-.content-top-bg-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.user-info__img {
-	width: 100px;
-	height: 100px;
-}
-
-.user-info__img img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.content__user-info {
-	padding-top: 15px;
-	display: flex;
-	align-items: flex-start;
+.my-button:hover {
+	background: #3caf99;
 }

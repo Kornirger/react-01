@@ -1,0 +1,25 @@
+.sidebar_nav {
+	grid-area: n;
+	background-color: #46ccb3;
+	padding: 10px;
+}
+
+.item {
+	margin-bottom: 10px;
+}
+
+.sidebar_nav .item {
+	color: #fff;
+	text-decoration: unset;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.sidebar_nav .item:hover,
+.sidebar_nav span {
+	color: #5b5b5b;
+}
+
+.sidebar_nav .active {
+	color: #5b5b5b !important;
+}
